@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+:root {
+    /* Primary */
+
+--Desaturated_Red: hsl(0, 36%, 70%);
+--Soft_Red: hsl(0, 93%, 68%);
+
+/* Neutral */
+
+--Dark_Grayish_Red: hsl(0, 6%, 24%);
+
+/* Gradients */
+
+/* -Linear, 135deg, from hsl(0, 0%, 100%), to hsl(0, 100%, 98%); */
+/* - Linear, 135deg, from hsl(0, 80%, 86%), to hsl(0, 74%, 74%); */
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--Desaturated_Red);
+}
+
+main {
+    margin: 50px;
+}
+
+.container {
+    background-color: #fff;
+    width: 85vw;
+    /* width: 385px; */
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: 100%;
+    /* flex-direction: column; */
+}
+
+.logo {
+    padding: 22px;
+}
+
+#image{
+    width: 100%;
+    height: 100%;
+}
+
+.show {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    padding: 25px;
+}
+
+#logo2 {
+    display: none;
+}
+
+
+h1 {
+    text-align: center;
+    width: 200px;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+span {
+    font-weight: 300;
+    color: var(--Desaturated_Red);
+}
+
+p {
+    text-align: center;
+    color: var(--Desaturated_Red);
+    font-weight: 400;
+}
+
+.input {
+    width: 100%;
+    
+}
+
+.email {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+}
+
+#email {
+    padding: 14px 22px;
+    border-radius: 50px;
+    border: 1px solid var(--Dark_Grayish_Red);
+    width: 100%;
+    color: var(--Desaturated_Red);
+    font-size: 15px;
+}
+
+#error {
+    position: absolute;
+    right: 85px;
+    display: none;
+}
+
+button {
+    background: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+    border: none;
+    padding: 11px 31px;
+    border-radius: 24px;
+    margin-left: -65px;
+}
+
+#valid {
+    color: var(--Soft_Red);
+    text-align: left;
+    margin-top: 8px;
+    margin-left: 20px;
+    display: none;
+}
+
+.img {
+    display: none;
+}
