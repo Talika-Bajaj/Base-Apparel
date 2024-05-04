@@ -63,7 +63,7 @@
     }
 }
 
-@media screen and (min-width: 1260px) {
+@media screen and (min-width: 1260px) and (max-width: 1300px) {
     .container {
         width: 90vw;
     }
@@ -74,5 +74,11 @@
 
     .show {
         gap: 55px;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    .container {
+        width: 77vw;
     }
 }
