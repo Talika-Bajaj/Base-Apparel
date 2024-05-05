@@ -6,6 +6,10 @@ function validateEmail () {
     if(input.value.match(mailformat)) {
         console.log('right');
         document.getElementById('email').value = '';
+        document.getElementById('valid').style.display = 'none';
+        input.style.borderColor = 'hsl(0, 6%, 24%)';
+        document.getElementById('error').style.display = 'none';
+        document.getElementById('btn').style.background = 'linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%))';
     } else {
         console.log('wrong');
         document.getElementById('valid').style.display = 'block';
