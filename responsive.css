@@ -18,7 +18,7 @@
     }
 
     .data {
-        padding: 7rem;
+        padding: 5rem 7rem;
         background: white url(images/bg-pattern-desktop.svg) no-repeat;
         background-size: contain;
 
@@ -28,7 +28,7 @@
         width: 75%;
         padding: 0;
         margin-top: 6rem;
-        gap: 3rem;
+        gap: 2em;
         align-items: start;
         /* width: 500px; */
     }
